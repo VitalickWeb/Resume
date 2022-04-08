@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #edd9bd;
+    color: #555;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.container { 
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.logo_image{
+    margin-bottom: 30px;
+}
+
+.box_title {
+    margin-bottom: 30px;
+}
+.title {
+    color: rgb(157, 14, 14);
+    text-align: center;
+    background-color: rgba(234, 234, 234, 0.8);  
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+}
+
+.info_block {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.info {
+    font-style: italic;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.box_social_links {
+    background-color: rgba(234, 234, 234, 0.8);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.box_social {
+    padding: 5px 5px;
+}   
+span, .social {
+    color: rgb(157, 14, 14);
+    font-size: 20px;
+}
+
+.box_link {
+    background-color: rgb(208, 224, 185);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.block_items_link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.social_icon img {
+    border-radius: 100%;
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.box_hobby {
+    background-color: rgba(234, 234, 234, 0.8);
+    border-radius: 10px; 
+    margin-bottom: 40px;  
+}
+.box_title_hobby {
+    background-color: rgba(234, 234, 234, 0.8);
+    text-align: center;
+    padding: 5px 5px;
+}
+.hobby {
+    color: rgb(157, 14, 14);
+}
+.box_navigation {
+    background-color: rgb(208, 224, 185);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    color: rgb(128, 128, 128);
+    
+}
+.list li {
+   padding-bottom: 10px;
+}
+
+.image_hobby img {
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box_table { 
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.box_table_title {
+    background-color: rgba(234, 234, 234, 0.8);
+}
+.table_title {
+    color: rgb(157, 14, 14);
+    padding: 5px 5px;
+}
+
+.box_for_table {
+    background-color: rgb(208, 224, 185);
+    padding: 30px 30px;
+}
+.box_table_body {
+    display: flex;
+    justify-content: center;
+}
+
+.table thead th {
+    background-color: rgb(198, 181, 139);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.table td {
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.table tr {
+    background-color: rgb(147, 201, 161);
+}
+
+.footer {
+    margin-bottom: 60px;
+}
+
+.box_title_form {
+    background-color: rgba(234, 234, 234, 0.8);
+    text-align: center;
+    padding: 5px 5px;
+}
+.title_form {
+    color: rgb(157, 14, 14);
+}
+.box_form {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(208, 224, 185);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.block_name_email {
+    display: flex;
+    justify-content: center;
+}
+.form_item label {
+    display: block;
+    font-size: 14px;
+    color: rgb(101, 101, 101);
+}
+.form_item input,
+.form_item textarea {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#message {
+    width: 375px;
+    height: 113px;
+    padding-top: 5px;
+    padding-left: 10px;
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+}
+textarea::placeholder {
+    color:rgb(160, 157, 157);
+}
+input::placeholder {
+    color:rgb(160, 157, 157);
+}
+.form_item label {
+    margin-top: 10px;
+}
+input[type="name"], input[type="email"] {
+    padding: 10px 10px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 13px -2px rgba(34, 60, 80, 0.2) inset;
+} 
+input[type="email"] {
+    margin-right: 0;
+}
+
+.button {
+    margin-top: 10px;
+}
+.btn {
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(167, 167, 167);
+    color: #FFF;
+    font-size: 15px;
+    border-radius: 6px;
+    transition: all .2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: -1px;
+   
+}
+.btn:hover {
+    background-color: rgb(147, 201, 161);
+    color:rgb(101, 101, 101);
+    -webkit-box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+    background-color: rgb(147, 201, 161);
+    -webkit-box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 00);
+    -moz-box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0);
+}
+/* .btn:visited {
+    background-color: rgb(81, 110, 146);
+} */
+
+
+
+@media (max-width: 650px) {
+    .logo_image {
+        text-align: center;
+        margin-top: 20px;   
+    }
+    .box_title {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .title {
+        line-height: 32px;
+    }
+    .info {
+        width: 200px;
+        text-align: center;
+    }
+    .box_link {
+        flex-direction: column;
+        height: auto;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .block_items_link {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .list {
+        flex-direction: column;
+    }
+    .block_hobby_image {
+        margin-top: 30px;
+    }
+    .block_hobby_image:first-child {
+        margin-top: 0;
+    }
+    .box_form {
+        padding-top: 0;
+    }
+    input[type="name"] {
+        margin-right: 0;
+    }
+    .block_name_email {
+       flex-direction: column;
+    }
+    #message {
+        width: 178px;
+        height: 180px;
+    }
+    input[type="submit"] {
+        margin-left: 0;
+    }
+}
